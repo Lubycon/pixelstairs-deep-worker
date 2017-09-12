@@ -40,9 +40,6 @@ INSTALLED_APPS = [
 
     # RESTful framework
     'rest_framework',
-
-    # REST framework Swagger
-    'rest_framework_swagger',
 ]
 
 MIDDLEWARE = [
@@ -56,6 +53,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'deepworker.urls'
+
 
 TEMPLATES = [
     {
@@ -78,14 +76,14 @@ WSGI_APPLICATION = 'deepworker.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+'''
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators

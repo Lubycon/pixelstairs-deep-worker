@@ -1,0 +1,11 @@
+[uwsgi]
+
+chdir           =   "<child dir>"
+module          =   "<project.wsgi>"
+virtualenv      =   "<virtualenv folder>"
+processes       =   number of process
+pidfile         =   .pid file location
+socket          =   .sock file location
+chmod-socket    =   666
+daemonize       =   ".log file location"
+master          =   true
